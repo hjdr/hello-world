@@ -1,8 +1,6 @@
 =begin
   Given an n x n array, return the array elements arranged from outermost elements to the middle element, traveling clockwise.
 =end
-  
-end
 
 def snail(array)
   arr_size, subarr_size, output_arr, iterate_array = array.size, array[0].size, [], [0, 1, 2]
